@@ -71,7 +71,6 @@ button3.addEventListener("click", function() {
 button4 = document.getElementById("b4");
 button4.addEventListener("click", function() {
   guess = "DR";
-  guess = reactionTypes[i];
   if (guess == reactionType) {
     button4.style.backgroundColor = "green";
   }
